@@ -1,5 +1,11 @@
+import Sidebar from "./Sidebar";
+
 function App() {
-  return <div className='text-center text-green-500 font-extrabold'> Hi Mom!</div>;
+  return (
+    <div className='flex'>
+      <Sidebar />
+    </div>
+  );
 }
 
 export default App;
